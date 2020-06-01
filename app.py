@@ -21,9 +21,9 @@ def predict():
     output=round(prediction[0],2)
     print(output)
     if output==1:
-        return render_template('heart_pred.html',pred='You have heart diseaseaa',result="diabetes")
+        return render_template('heart_pred.html',pred='You have heart disease',result="heart disease")
     else:
-        return render_template('heart_pred.html',pred='You dont have heart diseasea',result="not diabetes")
+        return render_template('heart_pred.html',pred='You dont have heart disease',result="not heart disease")
 
 if __name__ == '__main__':
     app.run(debug=True)
