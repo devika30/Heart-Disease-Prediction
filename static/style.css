@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-left: 50px;
+    overflow-x: hidden;
+    background-position: right top;
+}
+
+.raise
+{
+background-image:linear-gradient(to right,#EE6EB0 , #F28C89);
+padding:  12px 28px;
+border-radius: 20%;
+border:none;
+margin-left: 50%;
+}
+.raise:hover {
+ background-image:linear-gradient(to right,#F28C89 , #EE6EB0);
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+.box{
+    color:black;
+    font-family: 'Varela Round', sans-serif;
+}
